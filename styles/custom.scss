@@ -1,0 +1,43 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    text-transform: uppercase;
+    background-color: #efefef;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-item {
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+.card-item {
+    width: 18rem;
+    border-radius: 0px;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+.footer {
+    position: static;
+    bottom: 0;
+}
+
+.img-home {
+    object-fit: cover;
+    transition: all .3s;
+}
+
+.img-home:hover {
+    transform: scaleX(105%) scaleY(105%);
+}
